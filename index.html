@@ -1,0 +1,664 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Byeonghun Lee</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <meta name="author" content="Byeonghun Lee">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/star.png">
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      border: 0px;
+      border-spacing: 0px;
+      border-collapse: separate;
+      margin-right: auto;
+      margin-left: auto;
+      align-items: center;
+      /* Center-aligns items vertically in desktop mode */
+    }
+
+    .text-content {
+      padding: 2.5%;
+      width: 63%;
+      vertical-align: middle;
+      order: 1;
+    }
+
+    .image-content {
+      padding: 2.5%;
+      width: 37%;
+      max-width: 37%;
+      order: 2;
+      display: flex;
+      justify-content: center;
+      /* Center-aligns image horizontally */
+    }
+
+    .image-content img {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* Placeholder for links / images that are not filled in yet. */
+    .tbd {
+      color: #bbbbbb;
+    }
+
+    .thumb-tbd {
+      width: 170px;
+      height: 110px;
+      border-radius: 10px;
+      background-color: #f2f2f2;
+      border: 1px dashed #cfcfcf;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #bbbbbb;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+
+      .text-content,
+      .image-content {
+        width: 100%;
+        max-width: 100%;
+        order: 1;
+      }
+
+      .image-content {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        /* Center-aligns image horizontally in mobile mode */
+      }
+
+      .image-content img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        max-height: 300px;
+        /* Adjust this value as needed */
+      }
+    }
+  </style>
+</head>
+
+<body class="bg_colour">
+  <table <table border=0 class="bg_colour"
+    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <div class="container">
+            <div class="text-content">
+              <p style="text-align:left">
+                <name>Byeonghun Lee</name>
+              </p>
+              <p>Hi! I'm an <strong>M.S.&ndash;Ph.D. integrated student</strong> at the School of Electrical Engineering,
+                <a href="https://www.korea.edu/sites/en/index.do">Korea University</a>, where I work in the
+                <a href="https://ipa.korea.ac.kr/">Image Processing Algorithm Lab</a> advised by
+                <a href="https://ipa.korea.ac.kr/">Prof. Kyong Hwan Jin</a>. I received my B.S. in Convergence from the
+                School of Undergraduate Studies at <a href="https://www.dgist.ac.kr/en/">DGIST</a>.
+              </p>
+
+              <p>
+                My research starts from one question: <strong>when the input no longer carries enough information to
+                  restore, where should the missing evidence come from?</strong> I have pursued four answers &mdash;
+                retrieved <strong>reference images</strong>, the <strong>polarization</strong> of light, the
+                <strong>bit-plane structure</strong> of a signal, and neighboring <strong>frames and viewpoints</strong>
+                &mdash; across image super-resolution, compression/quantization restoration, and depth estimation. A
+                recurring principle in my work is to verify that the borrowed evidence is actually trustworthy, at the
+                retrieval and filtering stage, before it reaches the model.
+              </p>
+
+              <p>Feel free to send me an e-mail if you want to have a chat!<br><b>Contact</b>:
+                byeonghun_lee@korea.ac.kr</p>
+
+
+              <p style="text-align:center">
+                <a href="files/byeonghun_CV.pdf" target="_blank" style="text-decoration:none;">
+                  <i class="ai ai-cv" style="font-size:2.5em; color:#898484; margin: 0 10px;"></i>
+                </a>
+
+                <a href="mailto:byeonghun_lee@korea.ac.kr" style="text-decoration:none;">
+                  <i class="fas fa-envelope" style="font-size:2.5em; color:#898484; margin: 0 10px;"></i>
+                </a>
+
+                <!-- TODO: replace with your Google Scholar profile URL -->
+                <a href="https://scholar.google.com/citations?user=TODO" target="_blank" style="text-decoration:none;">
+                  <i class="ai ai-google-scholar" style="font-size:2.5em; color:#d8d8d8; margin: 0 10px;"></i>
+                </a>
+
+                <!-- TODO: replace with your LinkedIn URL (or delete this block if you don't use LinkedIn) -->
+                <a href="https://www.linkedin.com/in/TODO/" target="_blank" style="text-decoration:none;">
+                  <i class="fab fa-linkedin" style="font-size:2.5em; color:#d8d8d8; margin: 0 10px;"></i>
+                </a>
+
+                <a href="https://github.com/ByeonghunLee12" target="_blank" style="text-decoration:none;">
+                  <i class="fab fa-github" style="font-size:2.5em; color:#898484; margin: 0 10px;"></i>
+                </a>
+              </p>
+            </div>
+            <div class="image-content">
+              <a href="images/byeonghun.png"><img alt="profile photo" src="images/byeonghun.png"
+                  class="hoverZoomLink"></a>
+            </div>
+          </div>
+          <hr class="soft">
+
+          <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+            class="collapsible" data-toggle="collapse" data-target="#content-research" id="research">
+            <heading>Publications</heading>
+          </button>
+          <div id="content-research" class="collapse in">
+            <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:top">
+                    <div class="one">
+                      <img src='images/real.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:top">
+                    <papertitle>ReAL: Reference-to-Image (R2I) Aware Latent Diffusion for Image Super-Resolution
+                    </papertitle>
+                    <br>
+                    <strong>Byeonghun Lee</strong>,
+                    <a href="https://scholar.google.com/citations?user=MRz6g3QAAAAJ&hl">Hyunmin Cho</a>,
+                    Sunghoon Im<sup>&dagger;</sup>,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin<sup>&dagger;</sup></a>
+                    <br>
+                    <em>European Conference on Computer Vision <strong>(<u>ECCV</u>)</strong></em>, 2026.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <span class="tbd">Code (TBD)</span>
+                    <p>We introduce <strong>ReAL</strong>, a reference-based latent diffusion model for
+                      super-resolution that removes the text branch entirely and conditions on a single retrieved
+                      reference by injecting its key/value pairs into self-attention, avoiding the semantic drift caused
+                      by over-reliance on a text-to-image prior.
+                      <br><span style="color:gray;">Bronze Medal, Best Paper Award at IPIU 2026.</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/irag.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>Reference-based Super-Resolution via Image-based Retrieval-Augmented Generation Diffusion
+                    </papertitle>
+                    <br>
+                    <strong>Byeonghun Lee</strong><sup>*</sup>,
+                    <a href="https://scholar.google.com/citations?user=MRz6g3QAAAAJ&hl">Hyunmin Cho<sup>*</sup></a>,
+                    Hong Gyu Choi,
+                    Soo Min Kang,
+                    Iljun Ahn,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin<sup>&dagger;</sup></a>
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision <strong>(<u>ICCV</u>)</strong></em>, 2025.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <a href="https://github.com/ByeonghunLee12/iRAG">Code</a>
+                    <p>We introduce <strong>iRAG</strong>, which turns reference selection into a retrieval problem:
+                      a 16-bit neural hash finds the nearest reference 64&times; faster than VGG features, a generative
+                      model augments a sparse database, and a variance-based filter removes hallucinated references
+                      before training.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <!-- TODO: add a teaser image for this paper (e.g. images/jpeg_no.png) -->
+                      <div class="thumb-tbd">teaser image<br>TBD</div>
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>JPEG Processing Neural Operator for Backward-Compatible Coding
+                    </papertitle>
+                    <br>
+                    <a href="https://scholar.google.com/citations?user=kieVQZwAAAAJ&hl">Woo Kyoung Han<sup>*</sup></a>,
+                    Yongjun Lee<sup>*</sup>,
+                    <strong>Byeonghun Lee</strong>,
+                    Sang Hyun Park,
+                    Sunghoon Im<sup>&dagger;</sup>,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin<sup>&dagger;</sup></a>
+                    <br>
+                    <em>IEEE/CVF International Conference on Computer Vision <strong>(<u>ICCV</u>)</strong></em>, 2025.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <span class="tbd">Code (TBD)</span>
+                    <p>We replace the JPEG encoder and decoder with neural operators that stay fully backward-compatible
+                      with existing JPEG files, so image quality and chroma preservation improve without changing the
+                      deployed pipeline.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/lossless_inr.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>Towards Lossless Implicit Neural Representation via Bit Plane Decomposition
+                    </papertitle>
+                    <br>
+                    <a href="https://scholar.google.com/citations?user=kieVQZwAAAAJ&hl">Woo Kyoung Han</a>,
+                    <strong>Byeonghun Lee</strong>,
+                    <a href="https://scholar.google.com/citations?user=MRz6g3QAAAAJ&hl">Hyunmin Cho</a>,
+                    Sunghoon Im<sup>&dagger;</sup>,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin<sup>&dagger;</sup></a>
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
+                      <strong>(<u>CVPR</u>)</strong></em>, 2025.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <span class="tbd">Code (TBD)</span>
+                    <p>The model size an implicit neural representation needs for lossless fitting grows exponentially
+                      with bit precision. Decomposing the signal into bit planes turns fitting into per-bit binary
+                      decisions, lowering that bound and achieving <strong>16-bit lossless</strong> representation and
+                      quantization down to 1.58-bit ternary weights.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/burstm.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>BurstM: Deep Burst Multi-scale SR using Fourier Space with Optical Flow
+                    </papertitle>
+                    <br>
+                    EungGu Kang,
+                    <strong>Byeonghun Lee</strong>,
+                    Sunghoon Im<sup>&dagger;</sup>,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin<sup>&dagger;</sup></a>
+                    <br>
+                    <em>European Conference on Computer Vision <strong>(<u>ECCV</u>)</strong></em>, 2024.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <a href="https://github.com/Egkang-Luis/burstm">Code</a>
+                    <p><strong>BurstM</strong> replaces deformable-convolution alignment with optical flow for
+                      one-to-one correspondence and merges the aligned features in Fourier space, so a single model
+                      handles &times;2/&times;3/&times;4 without per-scale retraining.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/nis.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>Implicit Neural Image Stitching with Enhanced and Blended Feature Reconstruction
+                    </papertitle>
+                    <br>
+                    Minsu Kim,
+                    Jaewon Lee,
+                    <strong>Byeonghun Lee</strong>,
+                    Sunghoon Im,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin</a>
+                    <br>
+                    <em>IEEE/CVF Winter Conference on Applications of Computer Vision
+                      <strong>(<u>WACV</u>)</strong></em>, 2024.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <span class="tbd">Code (TBD)</span>
+                    <p><strong>NIS</strong> extends arbitrary-scale super-resolution to image stitching, estimating
+                      Fourier coefficients through neural warping to recover the high-frequency detail that learning-based
+                      stitching usually blurs away, and blending color and alignment mismatches in latent space.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <!-- TODO: add a teaser image for this paper (e.g. images/abcd.png) -->
+                      <div class="thumb-tbd">teaser image<br>TBD</div>
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>ABCD: Arbitrary Bitwise Coefficient for De-quantization
+                    </papertitle>
+                    <br>
+                    <a href="https://scholar.google.com/citations?user=kieVQZwAAAAJ&hl">Woo Kyoung Han</a>,
+                    <strong>Byeonghun Lee</strong>,
+                    Sang Hyun Park,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin</a>
+                    <br>
+                    <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition
+                      <strong>(<u>CVPR</u>)</strong></em>, 2023.
+                    <br>
+                    <span class="tbd">Paper (TBD)</span> / <span class="tbd">Website (TBD)</span> /
+                    <span class="tbd">Code (TBD)</span>
+                    <p><strong>ABCD</strong> restores low-bit images to arbitrary bit depth with an implicit neural
+                      function queried by bit coordinates, removing the contour artifacts that appear when legacy
+                      content is shown on high-bit displays.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="soft">
+
+          <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+            class="collapsible" data-toggle="collapse" data-target="#content-preprint" id="preprint">
+            <heading>Under Review</heading>
+          </button>
+          <div id="content-preprint" class="collapse in">
+            <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/polaris.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>POLARIS: Polarimetric Spin-2 Equivariant Adapters for Metric Monocular Depth
+                    </papertitle>
+                    <br>
+                    <strong>Byeonghun Lee</strong>,
+                    <a href="https://scholar.google.com/citations?user=RE9ZWDwAAAAJ&hl">Seonhwa Kim</a>,
+                    Sunho Lee,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin</a>
+                    <br>
+                    <em>Under review at <strong>ICLR</strong></em>, 2027.
+                    <br>
+                    <p>The angle of linear polarization is defined against a sensor-fixed axis, so it rotates twice as
+                      fast as the camera. We bake this <strong>spin-2 rotation symmetry</strong> into the encoder and
+                      inject it into a pretrained backbone, cutting depth error (AbsRel) by 23.8% on mirrored and
+                      transparent surfaces.
+                      <br><span style="color:gray;">Samsung Electronics industry collaboration.</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/rgb2pol.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>Efficient RGB-to-Polarization Estimation via Residual-Shifting Generative Models
+                    </papertitle>
+                    <br>
+                    <strong>Byeonghun Lee</strong><sup>*</sup>,
+                    <a href="https://scholar.google.com/citations?user=RE9ZWDwAAAAJ&hl">Seonhwa Kim<sup>*</sup></a>,
+                    Pureum Kim,
+                    Jee Eun Kim,
+                    Sunho Lee
+                    <br>
+                    <em>Under review at <strong>ICLR</strong></em>, 2027.
+                    <br>
+                    <p>Instead of diffusing from noise, we shift only the residual between RGB and polarization along a
+                      short trajectory, reaching 4-step inference without distillation &mdash; 26&times; faster
+                      (2,252ms &rarr; 85ms) at higher angle-image SSIM.
+                      <br><span style="color:gray;">Samsung Electronics industry collaboration.</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:20px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/toms.png' width="170" style="border-radius:10px;">
+                    </div>
+                  </td>
+                  <td style="padding:20px;width:75%;vertical-align:middle">
+                    <papertitle>ToMS: Target-Oriented Neural MPI Stitching for Novel View Synthesis
+                    </papertitle>
+                    <br>
+                    <strong>Byeonghun Lee</strong>,
+                    Jaedeok Kim,
+                    Sunghoon Im,
+                    <a href="https://scholar.google.com/citations?user=aLYNnyoAAAAJ&hl">Kyong Hwan Jin</a>
+                    <br>
+                    <em>Under review at <strong>WACV</strong></em>, 2027.
+                    <br>
+                    <p><strong>ToMS</strong> re-orients multiplane images to the target camera before generation and
+                      merges them per depth plane with neural warping instead of a weighted sum, rendering novel views
+                      in 1.3s without the per-scene optimization 3DGS requires.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="soft">
+
+          <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+            class="collapsible" data-toggle="collapse" data-target="#content-education" id="education">
+            <heading>Education</heading>
+          </button>
+          <div id="content-education" class="collapse in">
+
+            <table border=0 class="bg_colour"
+              style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr>
+                  <td style="padding:10px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/korea_univ.png' width="120">
+                    </div>
+                  </td>
+                  <td style="padding:10px;width:75%;vertical-align:top">
+                    <papertitle style="color:gray"><big>M.S.&ndash;Ph.D. Integrated, Electrical Engineering</big>
+                    </papertitle>
+                    <papertitle><big> | Korea University</big></papertitle>
+                    <br>
+                    Mar 2022 - Present
+                    <br>
+                    <br>
+                    <strong>Research: </strong> Image Restoration, Depth Estimation & Generative Models
+                    <br>
+                    <strong>Advisor: </strong> Prof. <a href="https://ipa.korea.ac.kr/">Kyong Hwan Jin</a>
+                    <br>
+                    <strong>GPA: </strong> 4.38 / 4.5
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding:10px;width:25%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/dgist.png' width="120">
+                    </div>
+                  </td>
+                  <td style="padding:10px;width:75%;vertical-align:top">
+                    <papertitle style="color:gray"><big>B.S. in Convergence</big> </papertitle>
+                    <papertitle><big> | DGIST</big></papertitle>
+                    <br>
+                    Mar 2017 - Feb 2022
+                    <br>
+                    <br>
+                    <strong>School of Undergraduate Studies</strong>
+                    <br>
+                    <strong>GPA: </strong> 3.21 / 4.3
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="soft">
+
+          <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+            class="collapsible" data-toggle="collapse" data-target="#content-project" id="project">
+            <heading>Industry & Research Projects</heading>
+          </button>
+          <div id="content-project" class="collapse in">
+            <table border=0 class="bg_colour"
+              style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr>
+                  <td>
+                    <ul>
+                      <li style="margin-bottom: 12px;">
+                        <strong>Synthetic Polarization Data Generation from RGB Images &amp; Polarization-Based Precise
+                          Depth Estimation</strong>
+                        &mdash; Samsung Electronics, Production Engineering Research Institute
+                        <span style="color:gray; font-size:small;">(Mar 2026 &ndash; Present)</span>
+                        <br>
+                        Leading student researcher. Built a model that generates polarization images from RGB inputs and
+                        a model that leverages them to improve monocular depth estimation, including in-house capture of
+                        an RGB&ndash;polarization stereo dataset.
+                      </li>
+                      <li style="margin-bottom: 12px;">
+                        <strong>Hallucination Mitigation in Video Understanding Models</strong>
+                        &mdash; Samsung Research
+                        <span style="color:gray; font-size:small;">(Dec 2025 &ndash; Present)</span>
+                        <br>
+                        Built a graph-based structured representation of video content and applied first-order logic
+                        constraints over the graph to detect and suppress hallucinated outputs in video-language model
+                        responses (+20%p video QA accuracy on two public benchmarks).
+                      </li>
+                      <li style="margin-bottom: 12px;">
+                        <strong>User-Preference-Based Image Quality Enhancement</strong>
+                        &mdash; Samsung Research
+                        <span style="color:gray; font-size:small;">(Jun 2024 &ndash; May 2025)</span>
+                        <br>
+                        Developed diffusion-based methods for reference-guided style transfer and low-quality image
+                        restoration; the resulting work was accepted at ICCV 2025.
+                      </li>
+                      <li style="margin-bottom: 12px;">
+                        <strong>Cognitive Reverse-Haptics Reproduction System Lab</strong>
+                        &mdash; Basic Research Laboratory (BRL), National Research Foundation of Korea
+                        <span style="color:gray; font-size:small;">(Feb 2023 &ndash; Feb 2024)</span>
+                        <br>
+                        Developed signal-processing algorithms to convert real-world tactile data into digital signals,
+                        and designed a Verilog-based hardware demonstration.
+                      </li>
+                      <li style="margin-bottom: 12px;">
+                        <strong>Food Classification Algorithm for Caloric Intake Analysis</strong>
+                        &mdash; Pinset Healthcare
+                        <span style="color:gray; font-size:small;">(Aug 2022 &ndash; Jul 2023)</span>
+                        <br>
+                        Developed food classification and calorie estimation algorithms from user-captured, in-the-wild
+                        food images, delivered as a working application demo.
+                      </li>
+                      <li>
+                        <strong>Deep Learning Algorithm for Bacteria Detection</strong>
+                        &mdash; THE WAVE TALK
+                        <span style="color:gray; font-size:small;">(Mar 2022 &ndash; Aug 2022)</span>
+                        <br>
+                        Developed an image-based classification algorithm to identify bacteria species and concentration
+                        levels from microscopy images under a low-data regime.
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="soft">
+
+          <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+            class="collapsible" data-toggle="collapse" data-target="#content-award" id="award">
+            <heading>Awards</heading>
+          </button>
+          <div id="content-award" class="collapse in">
+            <table border=0 class="bg_colour"
+              style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr>
+                  <td>
+                    <ul>
+                      <li><strong>Bronze Medal, Best Paper Award</strong>, Workshop of Image Processing and Image
+                        Understanding (IPIU), Korea, 2026</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="soft">
+
+          <button style="border:0px transparent; background-color: transparent;outline:none;" type="button"
+            class="collapsible" data-toggle="collapse" data-target="#content-patent" id="patent">
+            <heading>Patents</heading>
+          </button>
+          <div id="content-patent" class="collapse in">
+            <table border=0 class="bg_colour"
+              style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+
+                <tr>
+                  <td>
+                    <ul>
+                      <li style="margin-bottom: 10px;">
+                        Apparatus and Method of Recovering Image Using Arbitrary Bitwise Coefficient Estimation for
+                        De-quantization
+                        <br>
+                        <span style="color:gray; font-size:small;">Korea Patent Application No. 10-2023-0111027 (filed
+                          Aug 24, 2023) &middot; related paper: ABCD (CVPR 2023)</span>
+                      </li>
+                      <li style="margin-bottom: 10px;">
+                        Lossless Implicit Neural Representation via Object Signal Quantization and Bitwise Decomposition
+                        <br>
+                        <span style="color:gray; font-size:small;">Korea Patent Application No. 10-2025-0151831 (filed
+                          Oct 20, 2025) &middot; related paper: Lossless INR (CVPR 2025)</span>
+                      </li>
+                      <li>
+                        Synthetic Polarization Data Generation and Polarization-Based Depth Estimation
+                        <span style="color:gray; font-size:small;">(Samsung Electronics collaboration)</span>
+                        <br>
+                        <span style="color:gray; font-size:small;">2 Korean patent applications pending &middot; 1
+                          international patent application pending</span>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr class="soft">
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:0px">
+                  <br>
+                  <p style="text-align:right;font-size:small;">
+                    Website templates from <a href="https://jonbarron.info/" target="_blank">Jon Barron</a>.</p>
+                </td>
+                </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </td>
+  </tr>
+  </table>
+</body>
+
+</html>
